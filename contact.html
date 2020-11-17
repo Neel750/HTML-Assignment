@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-            Assignment On HTML
+            Contact
         </title>
         <meta charset="UTF-8">
         <meta name="description" content="Assignment On HTML">
@@ -10,7 +10,8 @@
         <meta name="author" content="Neel Shah">
         <meta name="username" content="neel.shah">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./CSS/styles.css">       <!--Link to external css-->
+        <link rel="stylesheet" href="./CSS/styles.css">       <!--Link to external css for header footer-->
+        <link rel="stylesheet" href="./CSS/contact-styles.css">       <!--Link to external css-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             .fa {
@@ -74,59 +75,44 @@
         </div>
         <!---Header End-->
 
-        <!--Banner And Punch Line Part Start-->
-        <div class="banner">
-            <img src="./Images/Banner.jpg" alt="punch_line_text" style="width:100%; height: 350px">
-            <div class="banner-punchline">Punch Line Goes Here!</div>
-            <div class="banner-button"><button>Read More</button></div>
+        <!--Contact Us -->
+        <div class="title">
+            <h1>Contact Form</h1>
         </div>
-        <!--Banner And Punch Line Part End-->
+        <div class="container">
+        <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-        <!--Introduction Text Start-->
-        <div class=intro-text>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="netherland">Netherland</option>
+            <option value="usa">USA</option>
+            <option value="uae">UAE</option>
+            <option value="finland">Finland</option>
+            <option value="france">France</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="denmark">Denmark</option>
+            <option value="iceland">Iceland</option>
+            <option value="norway">Norway</option>
+            <option value="south africa">South Africa</option>
+            <option value="japan">Japan</option>
+            <option value="belgium">Belgium</option>
+            <option value="germany">Germany</option>
+            <option value="sweden">Sweden</option>
+            </select>
+
+            <label for="subject">Message</label>
+            <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
         </div>
-        <!--Introduction Text End-->
-        
-        <!--Service Start-->
-        <div class="service">
-            <!--Service Text Start-->
-            <div class="service-text">
-                Our Services
-            </div>
-            <!--Service Text End-->
-
-            <!--Service Images Start-->
-            <a href=""><img class="service-image" src="./Images/Service_1.jpg" alt="service_name"></a>
-            <a href=""><img class="service-image" src="./Images/Service_2.jpg" alt="service_name"></a>
-            <a href=""><img class="service-image" src="./Images/Service_3.jpg" alt="service_name"></a>
-            <!--Service Images End-->
-        </div>
-        <!--Service End-->
-
-        <!--Client Start-->
-        <div class="client">
-            <!--Service Text Start-->
-            <div class="client-text">
-                Our Clients
-            </div>
-            <!--Service Text End-->
-
-            <!--Service Images Start-->
-            <img class="client-image" src="./Images/Client-1.png" alt="client_name">
-            <img class="client-image" src="./Images/Client-2.png" alt="client_name">
-            <img class="client-image" src="./Images/Client-3.png" alt="client_name">
-            <img class="client-image" src="./Images/Client-4.png" alt="client_name">
-            <img class="client-image" src="./Images/Client-5.png" alt="client_name">
-            <img class="client-image" src="./Images/Client-6.png" alt="client_name">
-            <!--Service Images End-->
-        </div>
-        <!--Service End-->
 
         <footer>
             <!--Footer Start-->
@@ -187,7 +173,7 @@
                 </div>   
             </div>
             <!--Footer End-->
-           
         </footer>
+
     </body>
 </html>
