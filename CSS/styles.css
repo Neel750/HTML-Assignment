@@ -1,3 +1,7 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
 body{
     background-color: #FFFFE0;
 }
@@ -21,6 +25,10 @@ body{
     padding-left: 35px;
     padding-right: 35px;
     float: right;  
+}
+/*header menu effect*/
+.header-menu a:hover{
+    color:#FFE4B5;
 }
 
 /*header navigation menu link text styles*/
@@ -151,7 +159,8 @@ body{
     padding-left: 30%;
     width: 75%;
     height: 25%;
-    font-size: 1.5em;   
+    font-size: 1.2em;
+    text-justify: auto;   
     text-align: left;
 }
 
@@ -177,6 +186,9 @@ body{
     font-size: 1.5em; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.footer-menu a:hover{
+    color:#B8860B
+}
 
 /*social media icons*/
 .container-footer { 
@@ -186,6 +198,9 @@ body{
     background-color:#000000;
     color: #ffffff;
     font-weight: bolder;
+}
+.container-footer a:hover{
+    color:#B8860B;
 }
 .button {
   display: inline-block;

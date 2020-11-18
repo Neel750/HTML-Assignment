@@ -13,9 +13,11 @@
         <link rel="stylesheet" href="./CSS/styles.css">       <!--Link to external css for headder footer-->
         <link rel="stylesheet" href="./CSS/about-styles.css">       <!--Link to external css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <style>
+            
             .fa {
-                    padding: 20px;
+                    padding: 25px;
                     font-size: 15px;
                     width: 15px;
                     text-align: center;
@@ -74,86 +76,74 @@
             </div>
         </div>
         <!---Header End-->
-
         <!--About Us-->
-        <div class="about-section">
-            <h1>About Us Page</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Nulla sollicitudin, nibh in auctor auctor, 
-                purus dui venenatis ligula, in fringilla purus ligula id augue. 
-                Vestibulum ultricies sem vel sapien consectetur eleifend. 
-                Duis sit amet molestie tortor. Curabitur ut justo at orci rhoncus ultrices non eget ex. 
-                Suspendisse potenti. Suspendisse potenti. Vestibulum et nibh vel metus pulvinar dictum. 
-                Duis vel ipsum eu enim porttitor tristique et at lorem. Proin vulputate sem enim. 
-                Pellentesque nisi enim, convallis at dolor vitae, dapibus porttitor felis. 
-                Nullam libero orci, molestie id enim ac, hendrerit condimentum ante. 
-                Praesent sollicitudin ex vitae urna consectetur, nec tristique justo rhoncus. 
-                Suspendisse egestas, erat quis rhoncus hendrerit, sapien nulla hendrerit dolor, 
-                ut feugiat elit dolor vel enim. Aliquam sit amet erat eu tortor laoreet scelerisque. 
-                Pellentesque pulvinar, ipsum non semper volutpat, ipsum elit sagittis elit, 
-                quis pulvinar ipsum orci ac sapien. 
-                Nullam id magna condimentum, sollicitudin risus vel, commodo risus.
-            </p>
-          </div>
-          <!--About Us Ended-->
-          
-          <!--Team Started-->
-          <div class="team">
-            <h1>Team Members</h1>
-                <div class="row">
-                  <div class="column">
-                    <div class="card">
-                      <img src="./Images/team-1.png" alt="Member-1 Name">
-                      <div class="container">
-                        <h2>Member-1 Name</h2>
-                        <p>Position</p>
-                        <p>
-                            Duis vel sapien nec mi malesuada consequat. 
-                            Aenean vel ultricies enim. Donec interdum velit at turpis dignissim porttitor. 
-                            Curabitur nec dolor ipsum. Nam.
-                        </p>
-                        <p>member_1@example.com</p>
-                        <p><button>Contact</button></p>
+        <section class="container mt-4 mb-4">
+            <h2>Meet Our Team Members</h2>
+        <div class="container">
+            <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="d-flex flex-row border rounded">
+                      <div class="p-0 w-25">
+                          <img src="./Images/team-1.png" alt="Member-1 Name" class="img-thumbnail border-0" />
+                          
                       </div>
+                      <div class="pl-3 pt-2 pr-2 pb-2 w-75 border-left">
+                              <h4 class="text-primary">Member - 1 Name</h4>
+                              <h5 class="text-info">Position</h5>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce metus nisi, interdum vitae vehicula id, convallis eu ante. In sodales vehicula tellus sed volutpat. Cras suscipit volutpat hendrerit. Integer laoreet ligula mi. Fusce placerat ornare dictum. Pellentesque id urna erat. Nullam molestie est mi, sit amet vulputate ligula ullamcorper at.</p>
+                            
                     </div>
-                  </div>
-                
-                  <div class="column">
-                    <div class="card">
-                      <img src="./Images/team-2.png" alt="Member-2 Name">
-                      <div class="container">
-                        <h2>Member-2 Name</h2>
-                        <p>Position</p>
-                        <p>
-                            Donec luctus dignissim felis ut vestibulum. Quisque et aliquet sapien. 
-                            Duis libero augue, consequat a cursus sed, fermentum ut lectus. 
-                            Maecenas eu ullamcorper lectus, vel pellentesque velit. Proin odio enim.
-                        </p>
-                        <p>member_2@example.com</p>
-                        <p><button>Contact</button></p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="column">
-                    <div class="card">
-                      <img src="./Images/team-3.png" alt="Member-3 Name">
-                      <div class="container">
-                        <h2>Member-3 Name</h2>
-                        <p>Position</p>
-                        <p>
-                            Proin dolor risus, ultrices et quam vel, blandit mollis urna. 
-                            Fusce vehicula erat eu leo interdum, non venenatis enim feugiat. 
-                            Nulla eu est lobortis quam varius pellentesque. Mauris nec sem.
-                        </p>
-                        <p>member_3@example.com</p>
-                        <p><button>Contact</button></p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-          </div>
-          
+            </div><br><br>
+
+            <div class="col-md-6">
+                <div class="d-flex flex-row border rounded">
+                    <div class="p-0 w-25">
+                        <img src="./Images/team-2.png" alt="Member-2 Name" class="img-thumbnail border-0" />
+                              
+                    </div>
+                    <div class="pl-3 pt-2 pr-2 pb-2 w-75 border-left">
+                        <h4 class="text-primary">Member - 2 Name</h4>
+                        <h5 class="text-info">Position</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci arcu, vehicula mollis gravida ut, maximus quis enim. Sed aliquam, lacus in auctor semper, orci tortor faucibus tellus, fringilla molestie ex risus quis purus. Donec pretium lacinia facilisis. Sed ligula ex, venenatis sit amet tortor sit amet, feugiat ultricies elit.
+                        </p>        
+                    </div>
+                </div>
+            </div><br><br>
+            </div>
+            <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="d-flex flex-row border rounded">
+                      <div class="p-0 w-25">
+                          <img src="./Images/team-3.png" alt="Member-3 Name" class="img-thumbnail border-0" />
+                          
+                      </div>
+                      <div class="pl-3 pt-2 pr-2 pb-2 w-75 border-left">
+                              <h4 class="text-primary">Member - 3 Name</h4>
+                              <h5 class="text-info">Position</h5>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci arcu, vehicula mollis gravida ut, maximus quis enim. Sed aliquam, lacus in auctor semper, orci tortor faucibus tellus, fringilla molestie ex risus quis purus. Donec pretium lacinia facilisis. Sed ligula ex, venenatis sit amet tortor sit amet, feugiat ultricies elit.</p>
+                            
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="col-md-6">
+                <div class="d-flex flex-row border rounded">
+                      <div class="p-0 w-25">
+                          <img src="./Images/team-2.png" alt="Member-4 Name" class="img-thumbnail border-0" />
+                          
+                      </div>
+                      <div class="pl-3 pt-2 pr-2 pb-2 w-75 border-left">
+                              <h4 class="text-primary">Member - 4 Name</h4>
+                              <h5 class="text-info">Position</h5>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci arcu, vehicula mollis gravida ut, maximus quis enim. Sed aliquam, lacus in auctor semper, orci tortor faucibus tellus, fringilla molestie ex risus quis purus. Donec pretium lacinia facilisis. Sed ligula ex, venenatis sit amet tortor sit amet, feugiat ultricies elit.</p>
+                            
+                    </div>
+                </div>
+            </div><br><br>
+            </div>
+        </div>    
+    </section>
         <footer>
             <!--Footer Start-->
             <div class="footer">
@@ -172,6 +162,9 @@
                             Borsad Chokdi,<br>
                             Anand - 388001.<br>
                         </address>
+                        E-mail : Company@xyz.com<br>
+                        Contact No.: 0123456789
+
                     </div>
                     <!--Footer Address End-->
                 </div>
@@ -196,16 +189,17 @@
                     <!--Footer Menu End-->
                 </div>
                 <!--Footer Menu Title End--> 
-
+                
                 <!--Social Media Container-->
                 <div class="container-footer">
+                    <br>
                     Connect With Us On:   
-                    <a href="https://facebook.com/" target="_blank" class="button facebook"><span><i class="fa fa-facebook" ></i></span><p>Facebook</p></a>
-                    <a href="https://twitter.com/" target="_blank" class="button twitter"><span><i class="fa fa-twitter" ></i></i></span><p>Twitter</p></a>
-                    <a href="https://plus.google.com/" target="_blank" class="button google-plus"><span><i class="fa fa-google-plus" ></i></span><p>Google +</p></a>
-                    <a href="https://www.linkedin.com/" target="_blank" class="button linkedin"><span><i class="fa fa-linkedin" ></i></span><p>Linkedin</p></a>
-                    <a href="https://www.instagram.com/" target="_blank" class="button instagram"><span><i class="fa fa-instagram" ></i></span><p>Instagram</p></a>
-                    <a href="https://youtube.com/" target="_blank" class="button youtube"><span><i class="fa fa-youtube" ></i></span><p>YouTube</p></a>
+                    <a href="https://facebook.com/" target="_blank" class="button facebook"><p>Facebook</p></a>
+                    <a href="https://twitter.com/" target="_blank" class="button twitter"><p>Twitter</p></a>
+                    <a href="https://plus.google.com/" target="_blank" class="button google-plus"><p>Google +</p></a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="button linkedin"><p>Linkedin</p></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="button instagram"><p>Instagram</p></a>
+                    <a href="https://youtube.com/" target="_blank" class="button youtube"><p>YouTube</p></a>
                     <br><br>
                     <span>&copy;</span>   2020 
                     <a href="#" style="color: #ffffff;"> &nbsp; Company Name </a> &nbsp; || &nbsp; 

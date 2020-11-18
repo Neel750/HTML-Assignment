@@ -20,7 +20,7 @@
 .service h1{
     text-align: center;
     font-size: 36pt;
-    color: #FA8072;
+    color: #000000;
     font-weight: bolder;
 }
 /*service row*/
@@ -49,7 +49,10 @@
 /*container properties*/
 .container{
     background-color:#808080;
-    color: #66CDAA;
+    color: #000000;
+    font-size: large;
+    text-align: justify;
+    padding: 1.5%;
 }
 .container button{
     display: inline-block;
